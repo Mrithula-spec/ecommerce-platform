@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Next.js
+.next/
+out/
+
+# Build
+dist/
+build/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# Prisma
+prisma/migrations/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+uploads/

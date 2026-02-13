@@ -1,0 +1,10 @@
+{
+  "name": "@packages/types",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0"
+  }
+}

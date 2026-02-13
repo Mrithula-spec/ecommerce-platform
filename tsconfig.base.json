@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    /* Language & Environment */
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    /* Strictness */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+
+    /* Interop & Emit */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Project Structure */
+    "baseUrl": ".",
+    "paths": {
+      "@apps/*": ["apps/*"],
+      "@services/*": ["services/*/src"],
+      "@packages/*": ["packages/*"],
+
+      "@config/*": ["packages/config/src/*"],
+      "@db/*": ["packages/db/src/*"],
+      "@shared-types/*": ["packages/types/src/*"],
+      "@utils/*": ["packages/utils/src/*"]
+    },
+
+    /* Output */
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+
+    /* Type Safety for Node */
+    "types": ["node"]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "**/*.test.ts"
+  ]
+}
